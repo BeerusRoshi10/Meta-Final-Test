@@ -1,0 +1,5 @@
+git clone --bare https://github.com/johnfelipe/little-lemon-capstone
+cd OLD-REPOSITORY.git
+git push --mirror https://github.com/johnfelipe/little-lemon-capstone
+cd ..
+rm -rf OLD-REPOSITORY.git
